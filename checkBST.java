@@ -13,12 +13,10 @@ public class checkBST{
 	checkBST(){
 		root=null;
 	}
-	static int n=0,i=0;
 	static void inOrder(Node root){
 		if(root!=null){
 			inOrder(root.left);
 			System.out.print(root.key+" ");
-			n++;
 			inOrder(root.right);
 		}
 		return;
