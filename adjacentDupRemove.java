@@ -20,8 +20,8 @@ public class adjacentDupRemove{
              }
              if(i!=str.length()-1)
              noDup=noDup+str.charAt(i);
-             else
-             {if(i==str.length()-1 && str.charAt(i)!=str.charAt(i-1))
+             else{
+		 if(i==str.length()-1 && str.charAt(i)!=str.charAt(i-1))
                  noDup=noDup+str.charAt(i);
              }
          }
@@ -33,7 +33,7 @@ public class adjacentDupRemove{
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[] args){
 		String str=sc.next();
-	    adjRemDupl(str);  
+	        adjRemDupl(str);  
 	}
 	
 }
