@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class patternV{
 	static void printPattern(int n){
-		int l=1,r=2;
+		
 		for(int i=0;i<n;i++){
 			for(int j=n;j>0;j--){
 				if(j<=i){
